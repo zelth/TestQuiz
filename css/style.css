@@ -253,8 +253,8 @@
 }
 
 .result-box div:first-child {
-	margin: 15px 0 15px 0;
-	padding: 0 20px 0 20px; 
+	margin: 10px 0 15px 0;
+	padding: 0 15px 0 15px; 
 }
 
 .result-box h4 {
@@ -310,6 +310,7 @@
 
 .result-def a {
 	width: 30%;
+	margin:  0 0 20px 0;
 }
 
 .result-box div:nth-child(3) button {
