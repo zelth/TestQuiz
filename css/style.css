@@ -56,9 +56,8 @@
 	color:#169fff;
 }
 
-.quiz-box button {
-	width: 230px;
-	height: 75px;
+.quiz-box div:nth-child(2) div a {
+	padding: 25px 75px 25px 75px;
 	margin: 0 0 40px 0;
 }
 
@@ -208,7 +207,7 @@
 	height: 50px;
 }
 
-.email-box button {
+.email-box a {
 	width: 100%;
 }
 
