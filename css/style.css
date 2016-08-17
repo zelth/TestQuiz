@@ -24,7 +24,9 @@
 .quiz-title {
 	position: absolute;
 	top: 65%;
-	left: 26%;
+/*	left: 26%;*/
+	width: 100%;
+	text-align: center;
 }
 
 .quiz-button {
