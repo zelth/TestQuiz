@@ -5,60 +5,50 @@
 	height: 20%;
 }
 
-.quiz-box {
-	height: 60%;
+.quizbox {
+	margin: 0 auto;
+
 }
 
-.quiz-bg {
-	background-image: url('../images/sample.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	border-top-right-radius: 8px;
-	border-top-left-radius: 8px;
-}
-
-.quiz-box h1 {
-	padding: 250px 0 0 0;
+.quiz-image {
 	text-align: center;
-	color: #fff;
-	margin: 0 0 0 0;
+	position: relative;
+	padding: 0 0 0 0;
 }
 
-.quiz-box p {
-	padding:10px 0 0 0;
-	margin:0 0 50px 0;
-	font-size: 15px;
-	color:#fff;
+.quiz-image img {
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+}
+
+.quiz-title {
+	position: absolute;
+	top: 65%;
+	left: 26%;
+}
+
+.quiz-button {
 	text-align: center;
+	border:1px solid #dedede;
+	padding: 0 0 0 0;
+	margin: 0 auto;
+	width: 600px;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
 }
 
-.quiz-box div:nth-child(2) {
-	text-align: center;
-	padding: 40px 0 0 0;
-	border:1px solid #e3e3e3;
-	border-bottom-right-radius: 8px;
-	border-bottom-left-radius: 8px;
+.quiz-button div {
+	margin:40px 0 30px 0;
 }
 
-.quiz-box div:nth-child(2) p {
+.quiz-button p {
 	text-align: right;
-	margin:0 30px 25px 0;
-	color: #a5a9ac;
-
+	padding:0 20px 0 0;
 }
 
-.quiz-box div p a {
-	color: #000;
-	text-decoration: none;
-}
-
-.quiz-box div p a:hover {
-	color:#169fff;
-}
-
-.quiz-box div:nth-child(2) div a {
-	padding: 25px 75px 25px 75px;
-	margin: 0 0 40px 0;
+.btn-group-lg>.btn, .btn-lg {
+	padding: 20px 55px;
+	font-size: 30px;
 }
 
 .footer {
